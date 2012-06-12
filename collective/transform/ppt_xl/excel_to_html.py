@@ -15,7 +15,7 @@ except ImportError:
     HAS_PLONE3 = True
 
 
-class excel_to_html()
+class excel_to_html():
     """Transform which converts from excel to xhtml"""
 
     if HAS_PLONE3:

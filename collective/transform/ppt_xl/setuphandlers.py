@@ -18,7 +18,7 @@ def installTransform(portal, logger=None):
         if transform not in transforms.objectIds():
             transforms.manage_addTransform(
                 transform,
-                'collective.transform.xl_ppt.%s' % transform
+                'collective.transform.ppt_xl.%s' % transform
             )
             logger.info("installed %s transform" % transform)
 

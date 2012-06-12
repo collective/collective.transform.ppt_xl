@@ -15,7 +15,7 @@ except ImportError:
     HAS_PLONE3 = True
 
 
-class ppt_to_html()
+class ppt_to_html():
     """Transform which converts from powerpoint to xhtml"""
 
     if HAS_PLONE3:
